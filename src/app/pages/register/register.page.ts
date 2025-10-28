@@ -14,7 +14,6 @@ export class RegisterPage {
   email = '';
   password = '';
 
-  // Inicializamos Firebase manualmente
   private app = initializeApp(environment.firebase);
   private auth = getAuth(this.app);
   private db = getDatabase(this.app);
